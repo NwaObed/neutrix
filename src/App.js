@@ -18,14 +18,14 @@ function App() {
       <MyNavbar 
           homeLink="/" logo="Neutrix Hub"
           resLink="/resources" res="Resources"
-          // worksLink="/howitworks" works="How it works"
+          worksLink="/#howitworks" works="How it works"
           blogLink="/blog" blog="Blog"
           aboutLink="/about" about="About Us"/>
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path='/resources' element={<Resources />} />
         <Route path='/resources/:id' element={<Resources />} />
-        <Route path='/howitworks' element={<HowItWorks />} />
+        {/* <Route path='/howitworks' element={<HowItWorks />} /> */}
         <Route path='/blog' element={<Blog />} />
         <Route path='/about' element={<About />} />
         <Route path='/mathematics' element={<Mathematics />} />

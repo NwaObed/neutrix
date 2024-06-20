@@ -19,7 +19,7 @@ const Home = () => {
         <img className="intro-img" src={`${process.env.PUBLIC_URL}/img/intro-image.png`} alt="College student"/>
       </section>
 
-      <section className="how-it-works">
+      <section id="howitworks" className="how-it-works">
         <h1>Easy in 2 steps</h1>
         <div className="steps">
           <div>
