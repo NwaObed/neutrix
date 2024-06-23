@@ -65,7 +65,7 @@ const Home = () => {
       </section>
 
       <section className="video-playlists">
-        <VideoComponent />
+        {/* <VideoComponent /> */}
       </section>
 
       <section className="tutor">
