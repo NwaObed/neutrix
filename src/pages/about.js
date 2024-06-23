@@ -5,7 +5,7 @@ const About = ()  => {
     return (
         <div className='about-us'>
             <h1>What is Neutrix Hub</h1>
-            <p>Neutrix is a tech education hub centre aimed to bridge the gap between talents and professionalism. We transfoem talents and motive into excellence. We are building digital skills that catalyse technological growth and achievements. We offer a targeted skill empowerment journey through 1:1 live mentorship sessions. Our lessons are continually refined and updated to meet the dynamic needs of our users.</p>
+            <p>Neutrix is a tech education hub centre aimed at bridging the gap between talents and professionalism. We transform talents and motive into excellence. We are building digital skills that catalyse technological growth and achievements. We offer a targeted skill empowerment journey through 1:1 live mentorship sessions. Our lessons are continually refined and updated to meet the dynamic needs of our users.</p>
 
             <h3>Benefits</h3>
             <ul>

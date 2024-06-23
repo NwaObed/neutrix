@@ -54,7 +54,7 @@ function App() {
             <Route path='/construction' element={<Construction />} />
           </Routes>
         </div>
-        <FeedbackButton />
+        {/* <FeedbackButton /> */}
         <Footer />
       </BackgroundWrapper>
   </Router>
