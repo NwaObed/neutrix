@@ -378,4 +378,8 @@ footer p {
   .how-it-works, .learn {
     padding: 25px 62px 30px;
   }
+  .construction-background {
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 }
