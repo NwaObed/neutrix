@@ -8,7 +8,7 @@ const ResourcePost = ()  => {
     const navigate = useNavigate();
 
     const handleNavigate = (id) => {
-        navigate('/mathematics');
+        navigate('/construction');
     };
     return (
         <div className="blogpost">

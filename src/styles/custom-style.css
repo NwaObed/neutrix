@@ -318,6 +318,29 @@ footer p {
   display: block;
 }
 
+.construction-background {
+  background-image: url('../../public/img/page-under-construction.png');
+  background-size: cover;
+  background-position: center;
+  background-color: #007bff;
+}
+
+.app-container {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.construction-message{
+  color: red;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.main-content {
+  flex: 1;
+}
 
 /* ********************** Media Query ************************ */
 @media only screen and (max-device-width: 600px) {

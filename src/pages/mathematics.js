@@ -7,16 +7,16 @@ import '../styles/custom-style.css'
 const Mathematics = ()  => {
     // const pdfUrl = 'client/src/res/obed-nhs-sql-cv.pdf'
 
-    return (
-        <div className='maths-layout'>
-            <Sidebar/>
-            <div className='maths-content'>
-                <h1>Mathematics Resources</h1>
-                {/* <PDFViewer pdfUrl={pdfUrl} /> */}
-            </div>
-            <Sidebar/>
-        </div>
-    )
+    // return (
+    //     <div className='maths-layout'>
+    //         <Sidebar/>
+    //         <div className='maths-content'>
+    //             <h1>Mathematics Resources</h1>
+    //             {/* <PDFViewer pdfUrl={pdfUrl} /> */}
+    //         </div>
+    //         <Sidebar/>
+    //     </div>
+    // )
 }
 
 export default Mathematics;

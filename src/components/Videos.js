@@ -5,7 +5,7 @@ const VideoComponent = () => {
 
   const fetchVideos = async () => {
     try {
-      const response = await fetch('http://localhost:3001//api/videos');
+      const response = await fetch('http://localhost:3001/api/videos');
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
